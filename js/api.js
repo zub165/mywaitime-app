@@ -5,7 +5,7 @@
 
 class APIClient {
     constructor(baseUrl) {
-        this.baseUrl = baseUrl || 'http://208.109.215.53:3015/api';
+        this.baseUrl = baseUrl || 'https://api.mywaitime.com/api';
         this.defaultHeaders = {
             'Content-Type': 'application/json',
             'Accept': 'application/json'

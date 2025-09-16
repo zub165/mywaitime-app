@@ -5,7 +5,7 @@
 
 class DjangoAPIClient {
     constructor() {
-        this.baseURL = 'http://208.109.215.53:3015/api';
+        this.baseURL = 'https://api.mywaitime.com/api';
         this.timeout = 10000; // 10 seconds
     }
 
